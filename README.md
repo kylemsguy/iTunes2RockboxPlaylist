@@ -16,7 +16,7 @@ optional arguments:
   -l ROCKBOX_LIBRARY, --rockbox-library ROCKBOX_LIBRARY
                         If we only want to search a subdirectory of the Rockbox device, pass the library path here
   -r ROCKBOX_ROOT, --rockbox-root ROCKBOX_ROOT
-                        If your Rockbox Music library is stored on an SD card, specify the prefix now
+                        If your Rockbox Music library is stored on an SD card, specify the prefix
                                 (e.g. Clip+ microSD is mounted at <microSD1>)
   -c, --case-sensitive  Enforce case sensitivity in filenames
   -e, --ignore-extensions
