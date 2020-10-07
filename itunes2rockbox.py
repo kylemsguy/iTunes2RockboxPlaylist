@@ -35,7 +35,7 @@ parser.add_argument(
 )
 parser.add_argument(
     "-r", "--rockbox-root",
-    help="If your Rockbox Music library is stored on an SD card, specify the prefix now\n\t(e.g. Clip+ microSD is mounted at <microSD1>)",
+    help="If your Rockbox Music library is stored on an SD card, specify the prefix\n\t(e.g. Clip+ microSD is mounted at <microSD1>)",
 )
 parser.add_argument(
     "-c", "--case-sensitive",
