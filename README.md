@@ -1,6 +1,8 @@
 # iTunes2RockboxPlaylist
 Utility to convert iTunes m3u8 playlists for use on Rockbox devices
 
+Requires Python 3.6+ (no dependencies required)
+
 ```
 usage: itunes2rockbox.py [-h] [-l ROCKBOX_LIBRARY] [-r ROCKBOX_ROOT] [-c] [-e] [-m] in_file out_file rockbox_device
 
