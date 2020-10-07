@@ -28,6 +28,6 @@ optional arguments:
 Usage examples:
     python itunes2rockbox.py -l E:\Music my_best_playlist.m3u my_converted_playlist.m3u E:\
         Search only E:\Music for music files
-    python itunes2rockbox.py -m my_best_playlist.m3u my_converted_playlist.m3u /media/rockbox/
+    python itunes2rockbox.py -m my_best_playlist.m3u my_converted_playlist.m3u /Volumes/rockbox/
         Search the entirety of /media/rockbox for music, but do not put empty lines for missing files
 ```

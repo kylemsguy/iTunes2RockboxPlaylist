@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser(
     epilog=f"""Usage examples:
     python {sys.argv[0]} -l E:\\Music my_best_playlist.m3u my_converted_playlist.m3u E:\\
         Search only E:\\Music for music files
-    python {sys.argv[0]} -m my_best_playlist.m3u my_converted_playlist.m3u /media/rockbox/
+    python {sys.argv[0]} -m my_best_playlist.m3u my_converted_playlist.m3u /Volumes/rockbox/
         Search the entirety of /media/rockbox for music, but do not put empty lines for missing files
     """,
     formatter_class=argparse.RawTextHelpFormatter
