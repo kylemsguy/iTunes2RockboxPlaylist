@@ -24,8 +24,8 @@ optional arguments:
   -m, --ignore-missing  Do not leave blank lines for missing files
 
 Usage examples:
-    python .\itunes2rockbox.py -l E:\Music my_best_playlist.m3u my_converted_playlist.m3u E:\
+    python itunes2rockbox.py -l E:\Music my_best_playlist.m3u my_converted_playlist.m3u E:\
         Search only E:\Music for music files
-    python .\itunes2rockbox.py -m my_best_playlist.m3u my_converted_playlist.m3u /media/rockbox/
+    python itunes2rockbox.py -m my_best_playlist.m3u my_converted_playlist.m3u /media/rockbox/
         Search the entirety of /media/rockbox for music, but do not put empty lines for missing files
 ```
