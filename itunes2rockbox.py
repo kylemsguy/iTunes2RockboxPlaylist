@@ -3,8 +3,8 @@ import sys
 import argparse
 
 # If you wish to support more files (e.g. mp4, files iTunes doesn't support)
-# simply add it to the following set
-SUPPORTED_MUSIC_FILES = {"mp3", "m4a", "wav", "aif", "aiff"}
+# simply add it to the following tuple
+SUPPORTED_MUSIC_FILES = ("mp3", "m4a", "wav", "aif", "aiff")
 
 
 parser = argparse.ArgumentParser(
